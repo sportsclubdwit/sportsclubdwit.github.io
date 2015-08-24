@@ -3,6 +3,7 @@
 <head>
 	<title>DWIT FUTSAL</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="img/deerwalk.png" type="image/png"/>
 	<link rel="stylesheet" href="normalize.css">
 	<link rel="stylesheet" href="style.css">
 	<link href='fonts/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -19,7 +20,6 @@
 				e.preventDefault();
 				menu.slideToggle();
 			});
-
 			$(window).resize(function(){
         		var w = $(window).width();
         		if(w > 320 && menu.is(':hidden')) {
@@ -28,27 +28,32 @@
     		});
 		});
 	</script>
+	<style>
+	#wrapper{
+	background-image: url('img/bg1.jpg');
+	}
+	</style>
 </head>
 <body>
 	
 	<div id="wrapper">
 		<nav class="clearfix">
-				<img src="img/sws.png" alt="Deerwalk Image" style="height:40px; width:100px;float:left;"/>
+				<img src="img/sws.png" alt="Deerwalk Image" style="height:50px; width:120px;float:left;"/>
 				<ul class="clearfix">
 					<li><a href="index.html">Home</a></li>
-					<li><a href="standing.html"  class="active">Standing</a></li>
+					<li><a href="about.html">About </a></li>
+					<li><a href="standing.html" class="active">Standing</a></li>
 					<li><a href="scorers.html">Scorers</a></li>
-					<li><a href="fixtures.html">Fixtures </a></li>
 					<li><a href="teams.html">Teams</a></li>
 				</ul>
 			<a href="#" id="pull">Menu</a>
 		</nav>
 		
 		<br>
-		<h1 style="text-align:center">BOYS LEAGUE STANDING</h1>
+		<h1 style="text-align:center; color:white;">BOYS LEAGUE STANDING</h1>
 
 
-		<table class="ui sortable celled table" style="margin:0px auto;width:90%;">
+		<table class="ui sortable celled table" style="margin:0px auto;width:90%;color:white;text-align:center">
 	<thead>
     <tr>
       <th>Name</th>
@@ -143,7 +148,7 @@
 </div>
 <br><br><br><br>
 		<div id="footer">
-				<p style="margin-top:20px;color:white;">&copy; 2015, DWIT Sports Club. All rights reserved. <span style="float:right;">For More Info: <a href="http://goo.gl/nZPmfC"> DWIT Sports Club</a></span></p>
+				<p style="margin-top:12px;color:white;">&copy; 2015, DWIT Sports Club. All rights reserved. <span style="float:right;">For More Info: <a href="http://goo.gl/nZPmfC"> DWIT Sports Club</a></span></p>
 		</div>
 </body>
 </html>
