@@ -70,7 +70,7 @@ nav a {
 	line-height: 55px;
 }
 nav li a {
-	border-right: 1px solid #576979;
+	border-right: 1px solid #3573A3;
 	box-sizing:border-box;
 	-moz-box-sizing:border-box;
 	-webkit-box-sizing:border-box;
@@ -79,7 +79,8 @@ nav li:last-child a {
 	border-right: 0;
 }
 nav a:hover, nav a:active {
-	background-color: skyblue;
+	background-color: white;
+	color: #3573A3;
 }
 nav a#pull {
 	display: none;
